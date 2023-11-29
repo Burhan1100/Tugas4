@@ -1,0 +1,349 @@
+:root{
+    --black:#000000;
+    --primary: #5CB85F;
+    --white: #FFFFFF;
+    --grey:#F1F3FF;
+    --blue:#0D28A6;
+    --bold: 700;
+    --extrabold: 800;
+    --semibold: 600;
+    --medium: 500;
+    --regular: 400;
+    --light: 300;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4, strong{
+    color: #000000;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+
+p,span,label,input,textarea,li{
+    color: var(--black);
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .hero {
+    background: #F1F3FF;  
+} */
+
+.container-iner{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.hero .offcanvas .offcanvas-body{
+    display: none;
+}
+
+@media screen and (min-width: 425px) {
+    .container-iner{
+        width: 90%;
+    }
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+
+/* butoon */
+.hero .collapse .btn{
+    padding: 0.6rem 1rem;
+    background: var(--primary);
+    border: 1.5px solid var(--primary);
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.2s ease-in-out;
+    margin-left: 20px;
+}
+.hero .collapse .btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px;
+}
+
+.btn{
+    padding: 0.6rem 1rem;
+    background: var(--primary);
+    border: 1.5px solid var(--primary);
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.2s ease-in-out;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px;
+}
+
+.navbar{
+    margin: auto 136px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.car-navbar{
+    justify-content: space-between;
+}
+
+.pre-isi{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.pre-title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.hero-left a{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.hero-left{
+    margin-left: 136px;
+}
+
+.hero-right img{
+    width: 100%; 
+}
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 2rem;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+#whyus{
+    margin-top: 100px;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 2rem;
+}
+
+h4{
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--black);
+}
+
+.icon-1{
+    width: 36px;
+    height: 36px;
+}
+
+.modal{
+    width: auto;
+    position: relative;
+    background: var(--white);
+    transform:translate(0px,-45px);
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 3px 3px lightgrey;
+    align-items: center;
+    justify-content: center;
+}
+.modal .col {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.modal label{
+    margin-left: 5px;
+}
+.modal .btn{
+    margin-top: 26px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.modal .btn-danger{
+    padding: 0.6rem 1rem;
+    background: #dc3545;
+    border: 1.5px solid #dc3545;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.2s ease-in-out;
+}
+.modal .btn-danger:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px;
+}
+
+.modal .btn span{
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.pilihMobil{
+    display: block;
+   }
+.pilihMobil .card{
+    box-shadow: 1px 1px 2px 2px lightgrey;
+    height: 625px; 
+}
+.pilihMobil .card .card-title{
+    font-size: 15px;
+    font-weight: 600;
+}
+.pilihMobil .card .card-img-top{
+   padding: 24px 24px 24px 24px;
+}
+.pilihMobil .card .desCars {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 14px;
+}
+.pilihMobil .card .desCars svg{
+    margin-right: 10px;
+}
+.pilihMobil .card a{
+    display: flex;
+    margin-top: 40px;
+    font-weight: 600;
+    justify-content: center;
+}
+.two-line-paragraph {
+    min-height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Opsional: Menampilkan elipsis jika teks terpotong */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Menampilkan dua baris */
+    -webkit-box-orient: vertical;
+}
+
+.footer{
+    margin-top: 50px;
+}
+.logoku{
+    height: 60px;
+    width: 60px;
+}
+.footer .foot{
+    color: var(--black);
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .hero .navbar {
+        margin: 2px 0 0 0;
+    }
+
+    .hero .offcanvas .offcanvas-body{
+        display:inline-flex;
+    }
+
+    .offcanvas{
+        max-width: 50%;
+    }
+
+    .hero-left {
+        font-weight: 700;
+        font-size: 36px;
+        margin: auto 13px;
+    }
+    
+    .hero-right img{
+        width: 100%;
+    }
+
+    .services .services-left{
+        justify-content: center;
+        align-items: center;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .whyus{
+        justify-content: center;
+    }
+    .whyus h3{
+        text-align: center;
+    }
+    .whyus p{
+        text-align: center;
+    }
+    .whyus .card p{
+        text-align: left;
+    }
+
+    .testimonial .carousel-cell{
+        width: 100%;
+        margin-right: 10px;
+        background: var(--grey);
+        border-radius: 5px;
+        counter-increment: gallery-cell;
+    }
+    .testimonial .carousel-inner{
+        background: #F1F3FF;
+        border-radius: 8px;
+        justify-content: center;
+        height: 270px;
+        width: 100%;
+        margin-top: 40px;
+        margin: 20px
+    }
+    .testimonial .carousel .carousel-cell .card{
+        background: var(--grey);
+        margin-top: 25px;
+        margin-right: 32px;
+        height: 270px;
+        border: none;
+    }
+
+    .cta h3{
+        margin: 64px 58px auto 58px;
+    }
+    .cta p{
+        margin: 16px 58px auto 58px;
+    }
+
+    .faq h3{
+        text-align: center;
+    }
+    .faq p{
+        text-align: center;
+    }
+
+    .footer p{
+        margin-left: 20px;
+    }
+    .footer a{
+        margin-left: 20px;
+    }
+}
