@@ -1,4 +1,4 @@
-# Binar: Challenge 04
+# tugas 04
 
 - Mulai modifikasi file `server/index.js` apabila ingin membuat HTTP server.
 - Mulai modifikasi folder `public` apabila ingin memodifikasi HTML.
@@ -34,6 +34,3 @@ Method `listCars` ini akan menerima fungsi yang mana harus mengembalikan `boolea
 Fungsi ini akan dijalankan untuk masing-masing item di dalam list of cars, yang mana jika nilainya `true`,
 maka akan ditampilkan di dalam list tersebut.
 
-# Tips
-
-Just, hack it bro!
