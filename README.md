@@ -3,8 +3,7 @@
 - Mulai modifikasi file `server/index.js` apabila ingin membuat HTTP server.
 - Mulai modifikasi folder `public` apabila ingin memodifikasi HTML.
 
-# `Binar` class
-
+# Tugas  4
 Class ini berisi 1 static method saja, yang berfungsi untuk mengambil data mobil dari internet.
 
 ```typescript
